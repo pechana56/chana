@@ -14,5 +14,5 @@ elif st.button("ทำความสะอาดข้อมูล"):
     st.switch_page("pages/clean_app.py")
 elif st.button("ทำความสะอาดข้อมูลของเพชร"):
     st.switch_page("pages/clean_pech.py")
-elif st.button("การแปลงข้อมูล"):
+elif st.button("การแปลงข้อมูล]"):
     st.switch_page("pages/transform_app.py")
