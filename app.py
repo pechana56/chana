@@ -10,15 +10,15 @@ st.write("##### Day 1: การจัดการข้อมูลพื้น
 
 if st.button("💰 ระบบคำนวณส่วนลดตามยอดซื้อ"):
     st.switch_page("pages/app1_discount_calc.py")
-elif st.button("ทำความสะอาดข้อมูล"):
+elif st.button("📢ทำความสะอาดข้อมูล"):
     st.switch_page("pages/clean_app.py")
-elif st.button("ทำความสะอาดข้อมูลของเพชร"):
+elif st.button("📢ทำความสะอาดข้อมูลของเพชร"):
     st.switch_page("pages/clean_pech.py")
-elif st.button("การแปลงข้อมูล"):
+elif st.button("📢การแปลงข้อมูล"):
     st.switch_page("pages/transform_app(2).py")
-elif st.button("การวิเคราะห์ข้อมูลเชิงสำรวจ"):
+elif st.button("📢การวิเคราะห์ข้อมูลเชิงสำรวจ"):
     st.switch_page("pages/EDA_app.py")
-elif st.button("พยากรณ์ยอดขาย"):
+elif st.button("📢พยากรณ์ยอดขาย"):
     st.switch_page("pages/sale_predict.py")
-elif st.button("ช่วยพยากรณ์เวลาบริการรถบรรทุก"):
+elif st.button("📢ช่วยพยากรณ์เวลาบริการรถบรรทุก"):
     st.switch_page("pages/truck_predict.py")
